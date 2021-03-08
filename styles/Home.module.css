@@ -27,11 +27,8 @@
   align-items: center;
 }
 
-.footerInner {
-  display: grid;
-  grid-template-columns: repeat (3, 1fr);
-  width: 100%;
-  justify-content: center;
+.footer p {
+  padding: 0 1em 0 1em;
 }
 
 .footer img {
