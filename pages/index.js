@@ -10,11 +10,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <img src="Guybrush_Threepwood.png" />
+        <img src="Guybrush_Threepwood.png" height="300px" />
         <h1 className={styles.title}>Welcome to Monkey Island APE 🐒</h1>
       </main>
 
-      <footer className={styles.footer}></footer>
+      <footer className={styles.footer}>
+        <p>try the new APE from BoMa</p>
+      </footer>
     </div>
   );
 }
