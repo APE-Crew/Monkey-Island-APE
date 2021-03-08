@@ -12,6 +12,7 @@
 
 p {
   font-family: var(--game-font);
+  font-size: 0.8em;
 }
 
 html,

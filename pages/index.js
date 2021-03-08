@@ -15,7 +15,18 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <p>try the new APE from BoMa</p>
+        <div className={styles.footerInner}>
+          <p>try the new APE from BoMa</p>
+          <p>Login with your account</p>
+        </div>
+        <div className={styles.footerInner}>
+          <p>HEY! BEHIND YOU! A THREE-HEADED MONKEY!</p>
+          <p>I am Guybrush Threepwood, a mighty pirate!</p>
+        </div>
+        <div className={styles.footerInner}>
+          <p>How fitting. You fight like a cow</p>
+          <p>I can hold my breath for 10 minutes</p>
+        </div>
       </footer>
     </div>
   );
