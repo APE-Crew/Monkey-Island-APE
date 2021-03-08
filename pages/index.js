@@ -5,11 +5,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Create Next Appcccc</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
+
+
         <img src="Guybrush_Threepwood.png" height="300px" />
         <h1 className={styles.title}>Welcome to Monkey Island APE 🐒</h1>
       </main>
@@ -23,6 +25,7 @@ export default function Home() {
 
         <p>How fitting. You fight like a cow</p>
         <p>I can hold my breath for 10 minutes</p>
+
       </footer>
     </div>
   );
