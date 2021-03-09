@@ -2,9 +2,10 @@
   "name": "mi-ape",
   "version": "0.1.0",
   "private": true,
+  "main": "ape/server/app.js",
   "scripts": {
     "dev": "next dev",
-    "server": "next src/server.js",
+    "server": "node ape/server/server.js -p 1138",
     "build": "next build",
     "start": "next start"
   },

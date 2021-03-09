@@ -2,3 +2,4 @@
 
 export const clone = (e: any) => JSON.parse(JSON.stringify(e));
 export const unique = (arr: any) => arr.filter((v: any, i: any, a: any) => a.indexOf(v) === i);
+export const getKeyValuesOfArrayObjects = (arr: object[], key: string) => arr.map((e) => e[key]);
